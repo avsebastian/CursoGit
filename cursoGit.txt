@@ -57,6 +57,13 @@ $git checkout -b [nombre de la nueva rama]
 //cambiar de rama
 $git checkout [nombre de la rama (ej: master)]
 
+//Juntar ramas. Por ejem: si se realizó cambios en un rama y se desea guardar en el master.
+//NOTA: pararse en la rama master, y desde ahi hacer la fusión de rama. 
+$git merge [nombre de la rama que desea juntar (ej: rama1)]
+
+//borrar rama
+$git branch -d [nombre de la rama]
+
 
 
 
