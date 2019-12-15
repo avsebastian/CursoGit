@@ -39,6 +39,26 @@ $git diff
 //NOTA: primero se debe ejecutar el comando "$git log --oneline" para saber los id de cada commit
 $git diff [id commit] [archivo que se desea comparar (ejemplo: index.html)] 
 
+//regresar a una versión anterior 
+//NOTA:tener cuidado xq se borraran todos los cambios realizados después del commit
+//IMPORTANTE: genera una rama y te posiciona en la misma 
+$git checkout [id commit]
+
+
+//RAMAS (branches): basicamente es una copia del proyecto, y los cambios no afectara al original.
+
+//conocer todas las ramas que tiene el proyecto
+$git branch
+
+//crear una nueva rama en el proyecto
+//NOTA: te posiciona en la nueva rama creada
+$git checkout -b [nombre de la nueva rama]
+
+//cambiar de rama
+$git checkout [nombre de la rama (ej: master)]
+
+
+
 
 
 
