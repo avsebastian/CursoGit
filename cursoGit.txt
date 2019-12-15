@@ -12,6 +12,34 @@ sebas@sebas-pc:~/Documentos/curso Axionline/git-github$ git init
 //estado actual del repositorio
 $git status
 
-
 //NOTA:antes de subir una nueva versión (commit) se necesita realizar un "Stelling Index",que es una fase anterior antes de 
-//enviar a una nueva versión
+//enviar a una nueva versión. Si el nombre del archivo al realizar un "git status" aparece en color verde, significa que se 
+//encuentra listo para ser comiteado (subir la nueva versión)
+$ git add [nombre del archivo]    (si se necesita modificó más de un archivo colocar un punto para que se guarden los cambios de todos los archivos)
+
+//agregar una nueva versión (commit)
+$git commit -m "[descripcion, por ejemplo se agrego header al archivo index.html]"
+
+//ver todas las actualizaciones que se realizaron en el proyecto
+$git log
+
+//ver todos los commit realizados con ciertas información (archivos modificado, cuantas lineas agregadas, etc)
+$git log --stat
+
+//ver los commit realizados en una sola linea (informacion basica, n° de commit y descripción)
+$git log --oneline
+
+//ver los commit con las diferentes ramas
+$git log --grahp
+
+//Si se agrego/quito contenido a un archivo se puede visualizar que se agrego/quito 
+$git diff
+
+//Ver las diferencias que hay entre una versión (commit) y un archivo en particular
+//NOTA: primero se debe ejecutar el comando "$git log --oneline" para saber los id de cada commit
+$git diff [id commit] [archivo que se desea comparar (ejemplo: index.html)] 
+
+
+
+
+
