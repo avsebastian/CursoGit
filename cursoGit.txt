@@ -1,0 +1,17 @@
+//configuración global del nombre de usuario, email
+$config --global user.name "NombreDelUsuario"
+$config --global user.email "email@correo.com"
+
+//verificacion de los datos
+$config user.[user/email/otroDato]
+
+//crear Repositorio.
+//Nota: debe estar ubicado en el directorio de deseas crear. Una vez creado la carpeta se encuentra oculta
+sebas@sebas-pc:~/Documentos/curso Axionline/git-github$ git init
+
+//estado actual del repositorio
+$git status
+
+
+//NOTA:antes de subir una nueva versión (commit) se necesita realizar un "Stelling Index",que es una fase anterior antes de 
+//enviar a una nueva versión
