@@ -64,6 +64,22 @@ $git merge [nombre de la rama que desea juntar (ej: rama1)]
 //borrar rama
 $git branch -d [nombre de la rama]
 
+//subir proyecto a la cuenta Github
+//NOTA: debemos tener creada sino crear un nuevo repositorio en nuestra cuenta
+//IMPORTANTE:debemos estar situado sobre el directorio que vamos a subir
+$git remote add origin [url] (el url lo obtenemos una vez que creamos el repositorio)
+$git push -u origin master
+
+//descargar un repositorio a nuestra maquina
+$git pull origin master
+
+//clonar proyecto
+//NOTA:debemos crear una carpeta donde se alojara el repositorio descargado
+//Dentro del repositorio copiamos la URL del mismo
+//IMPORTANTE: estar ubicado en el directorio donde queremos alojar el proyecto
+$git clone [URL del repositorio]
+
+
 
 
 
